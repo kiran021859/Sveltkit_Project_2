@@ -1,4 +1,6 @@
 <script>
+// @ts-nocheck
+
   
     </script>
     <div class="about">
