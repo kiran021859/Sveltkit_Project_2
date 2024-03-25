@@ -1,4 +1,5 @@
 <script>
+  //@ts-nocheck
     let title = "This is a title!"
     
     const changeTitle = () => {
