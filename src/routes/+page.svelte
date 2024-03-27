@@ -26,6 +26,7 @@
     <button on:click={changeTitle}></button>
     <input type="text" bind:value={title}>
     <a href="/about">About</a>
+    <a href="/guids">Guids</a>
 </div>
 <style>
     .index {
