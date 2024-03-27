@@ -23,7 +23,7 @@
             <a href="/about">About</a>
         </div> 
         <style>
-            .about {
+            .Guids {
             text-align: center;
             display: block;
             margin: 20px auto; 
