@@ -12,7 +12,6 @@
         
     }
     .navbar img {
-        width: 15%;
         height: 100px;
     
     }

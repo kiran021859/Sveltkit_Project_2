@@ -1,9 +1,8 @@
 <script>
 // @ts-nocheck
-    import Title from '$lib/title.svelte'   
+  
   
 </script>
-<Title title="Reviews"/>
 <div class="about">
     <h1>title</h1>
     <p>
