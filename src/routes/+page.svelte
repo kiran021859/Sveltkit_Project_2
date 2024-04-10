@@ -1,12 +1,16 @@
 <script>
   //@ts-nocheck
+
+    import Title from '$lib/title.svelte'
+    
     let title = "This is a title!"
     
     const changeTitle = () => {
         title = "This is also a title, but better!"
     }
 </script>
-    
+
+<Title />
 <div class="index">
     <h1>{title}</h1>
     <p>
