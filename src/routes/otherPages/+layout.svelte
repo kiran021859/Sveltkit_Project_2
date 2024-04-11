@@ -1,6 +1,6 @@
 <script>
 import Title from '$lib/title.svelte'
-import '../global css/style.css'
+import '../../global css/style.css'
 </script>
 
 <header>

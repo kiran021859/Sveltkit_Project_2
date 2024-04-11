@@ -20,7 +20,7 @@
         consequatur, vel illum qui dolorem eum fugiat quo voluptas nulla pariatur?
     </p>
     <a href="/">Home</a>
-    <a href="/guids">Guids</a>
+    <a href="/otherPages/guids">Guids</a>
 </div> 
 <style>
     .about {

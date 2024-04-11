@@ -21,7 +21,7 @@
         consequatur, vel illum qui dolorem eum fugiat quo voluptas nulla pariatur?
     </p>
     <a href="/">Home</a>
-    <a href="/about">About</a>
+    <a href="/otherPages/about">About</a>
 </div> 
 <style>
     .Guids {
