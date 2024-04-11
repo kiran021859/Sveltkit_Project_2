@@ -1,6 +1,28 @@
+<script context="module">
+export async function load({ fetch }) {
+    //https://jsonplaceholder.typicode.com/posts
+    const response = await fetch('http://jsonplaceholder.typicode.com/posts')
+       
+
+    const guids = await response.json()
+
+    if (response.ok) {
+        return {
+            props: {
+                guids
+            }
+        }
+    }
+
+    return {
+        status: response.status,
+        error: new Error('could not fetch posts/guids variable')
+    }
+}
+</script>
 <script>
 // @ts-nocheck
-  
+  export let response
   
 </script>
 <div class="about">
@@ -21,6 +43,15 @@
     </p>
     <a href="/">Home</a>
     <a href="/otherPages/guids">Guids</a>
+    <div>
+        <ul>
+            <!-- {#each guids as guid} -->
+            <li>
+                <a href="/">{response}</a>
+            </li>
+            <!-- {/each} -->
+        </ul>
+    </div>
 </div> 
 <style>
     .about {
